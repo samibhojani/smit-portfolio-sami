@@ -25,7 +25,6 @@ nav{
 
 .logo i {
     color: #FFC300;
-    flex-direction: row;
     font-size: 25px;   
 }
 
@@ -112,7 +111,7 @@ nav ul li a:focus {
 }
 
 .intro  {
-    width: 220px;
+    width: 215px;
     font-weight: 100;
     font-size: 15px;
     color: #b3b3b3;
@@ -123,7 +122,7 @@ nav ul li a:focus {
 .circle{
     height: 600px;
     width: 51%;
-    background-color: rgba(81, 81, 100, 0.5);
+    background-color: rgba(49, 49, 54, 0.5);
     border-radius: 50%;
     margin-left: 450px;
     position: absolute;
@@ -177,6 +176,7 @@ nav ul li a:focus {
 
 .portfolio {
     background-color: #232224;
+    color: #fff;
 }
 
 .networks {
@@ -202,4 +202,41 @@ nav ul li a:focus {
     height: 40px;
     align-self: center;
     padding: 20px 80px;
+}
+
+.informatics {
+    display: flex;
+    justify-content: space-between;
+    height: 500px;
+}
+.info1 {
+    width: 50%;
+}
+
+.info1 h1 {
+    font-size: 50px;
+    width: 500px;
+}
+
+#infoP {
+    width: 300px;
+    padding: 25px 0;
+}
+
+.stats {
+    display: flex;
+    justify-content: space-between;
+    height: 120px;
+    width: 220px;
+    align-content: space-evenly;
+    align-items: flex-end;
+    flex-wrap: wrap;
+}
+
+.figures h3 {
+    color: #FFC300;
+}
+
+.figures p {
+    font-size: 10px;
 }
