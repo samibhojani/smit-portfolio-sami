@@ -175,4 +175,29 @@ nav ul li a:focus {
     color: #fff;
 }
 
+.portfolio {
+    background-color: #232224;
+}
 
+.networks {
+    height: 150px;
+    background-color: #232224;
+    border: 1px solid #b3b3b3;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.networkCards {
+    width: 300px;
+    height: 75px;
+    box-sizing: border-box;
+    background-color: #403e47;
+}
+
+.networkCards img {
+    width: 150px;
+    height: 40px;
+    align-self: center;
+    padding: 20px 80px;
+}
