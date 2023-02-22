@@ -79,7 +79,7 @@ nav ul li a:focus {
 
 .hero{
     color: #b3b3b3;
-    height: 800px;  
+    height: 700px;  
 }
 .container-hero{
     width: 100%;
@@ -87,7 +87,7 @@ nav ul li a:focus {
     justify-content: space-between;
 }
 .title{
-    margin-top: 120px;
+    margin-top: 90px;
     
 }
 .title h1{
@@ -108,13 +108,13 @@ nav ul li a:focus {
     width: 300px;
     border-bottom: 5px solid #FFC300;
     margin-left: 7px;
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
 .intro  {
-    width: 420px;
+    width: 220px;
     font-weight: 100;
-    font-size: 25px;
+    font-size: 15px;
     color: #b3b3b3;
     margin-top: 50px;
     position: relative;
@@ -181,18 +181,20 @@ nav ul li a:focus {
 
 .networks {
     height: 150px;
-    background-color: #232224;
-    border: 1px solid #b3b3b3;
+    background-color: #424047;
+    border: 1px solid #000;
     display: flex;
     justify-content: space-around;
     align-items: center;
+    position: relative;
+    top: -75px;
 }
 
 .networkCards {
     width: 300px;
     height: 75px;
     box-sizing: border-box;
-    background-color: #403e47;
+    background-color: rgba(49, 49, 54, 0.5);
 }
 
 .networkCards img {
