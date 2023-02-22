@@ -78,7 +78,8 @@ nav ul li a:focus {
 }
 
 .hero{
-    color: #b3b3b3;  
+    color: #b3b3b3;
+    height: 700px;  
 }
 .container-hero{
     width: 100%;
@@ -90,21 +91,21 @@ nav ul li a:focus {
     
 }
 .title h1{
-    font-size: 50px;
+    font-size: 100px;
     font-weight: lighter;
     letter-spacing: 10px;
 }
 
 #fullname{
     width: 700px;
-    font-size: 80px;
+    font-size: 150px;
     font-weight: bold;
     color: #fff;
     
 }
 
 .gold-line{
-    width: 150px;
+    width: 300px;
     border-bottom: 5px solid #FFC300;
     margin-left: 7px;
     margin-top: 20px;
