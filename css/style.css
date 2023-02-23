@@ -75,16 +75,18 @@ nav ul li a:hover {
 
 .hero{
     color: #b3b3b3;
-    height: 700px;  
+    height: 620px;  
 }
-.container-hero{
+.heroWrap{
     width: 100%;
     height: 100%;
     display: flex;
     justify-content: space-between;
 }
 .title{
-    margin-top: 10%;
+    width: 480px;
+    margin-top: 5%;
+    overflow: visible;
     
 }
 .title h1{
@@ -94,13 +96,14 @@ nav ul li a:hover {
 }
 
 #fullname{
-    width: 200%;
-    font-size: 90px;
+    width: 40%;
+    font-size: 100px;
     font-weight: bold;
+    letter-spacing: normal;
     color: #fff;
     position: relative;
     z-index: 9;
-    
+    white-space: nowrap;
 }
 
 .gold-line{
@@ -115,29 +118,29 @@ nav ul li a:hover {
     font-weight: 100;
     font-size: 15px;
     color: #b3b3b3;
-    margin-top: 50px;
+    margin-top: 10%;
     position: relative;
 }
 
 .circle{
-    height: 70%;
-    width: 45%;
+    height: 500px;
+    width: 600px;
     background-color: #2d2d39;
     border-radius: 50%;
-    margin-left: 400px;
-    position: absolute;
 }
 
 .circle img {
     position: relative;
     z-index: 99;
+    margin: 0 auto;
+    display: table;
 }
 
-.services{
+.services {
     width: 40%;
     position: relative;
-    margin-top: 8%;
-    margin-left: 40%;
+    left: -63px;
+    margin-top: 10%;
     color: #fff;
 }
 
@@ -191,7 +194,7 @@ nav ul li a:hover {
     justify-content: space-around;
     align-items: center;
     position: relative;
-    top: -75px;
+    top: -80px;
     z-index: 999;
     
 }
