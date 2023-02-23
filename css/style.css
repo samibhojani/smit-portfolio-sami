@@ -209,11 +209,20 @@ nav ul li a:hover {
     background-color: #2d2d39;
 }
 
-.networkCards img {
+.networkCards a {
     width: 150px;
     height: 40px;
+}
+.networkCards img {
+    width: 100%;
+    height: 100%;
     align-self: center;
-    padding: 20px 80px;
+    object-fit: contain;
+}
+
+#slack {
+    width: 80px;
+    height: 40px;
 }
 
 .informatics {
