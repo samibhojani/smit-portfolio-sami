@@ -220,11 +220,6 @@ nav ul li a:hover {
     object-fit: contain;
 }
 
-#slack {
-    width: 80px;
-    height: 40px;
-}
-
 .informatics {
     display: flex;
     justify-content: space-between;
