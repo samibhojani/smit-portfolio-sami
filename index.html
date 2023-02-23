@@ -18,13 +18,13 @@
     <nav>
         <div class="logo">
             <i class="fa-solid fa-face-laugh-beam"></i>
-            <h2>Sami</h2>
+            <h2>Bhojani</h2>
         </div>
         <div class="menu">
             <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Portfolio</a></li>
-                <li><a href="#">Testimonial</a></li>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#testimonials">Testimonial</a></li>
                 <li><a href="#">About</a></li>
             </ul>
         </div>
@@ -38,11 +38,11 @@
     </nav>
 
     
-        <section class="hero">
+        <section class="hero" id="home">
             <div class="container-hero">
                 <div class="title">
                     <h1>I'm</h1>
-                    <h1 id="fullname">Sami</h1>
+                    <h1 id="fullname">Sami Bhojani</h1>
                     <div class="gold-line">
 
                     </div>
@@ -58,7 +58,7 @@
                 </div>
                    
                         <div class="circle">
-                            <img src="./images/herosection1.png" height="700" alt="propic">
+                            <img src="./images/herosection1.png" height="100%" alt="propic">
                         </div>
             
                     <div class="services">
@@ -79,7 +79,7 @@
         </section>
     </div>
     
-        <section class="portfolio">
+        <section class="portfolio" id="portfolio">
     <div class="container">
             <div class="networks">
                 
@@ -134,24 +134,50 @@
                 <div class="skills">
 
                     <div class="skillsCards">
-                        <img src="./images/skillcard1.jpg" height="100px" width="200px" alt="skill1">
+                        <div class="cp"></div>
+                        <img src="./images/skillcard1.jpeg" height="150px" width="200px" alt="skill1">
+                        
+                        <div class="skillstext">
                         <h3>UI/UX Design</h3>
                         <p>117 Projects</p>
-                        <a href="#">show more <i class="fa-solid fa-arrow-right"></i></a>
+                        </div>
+
+                        <div id="skillsArrow1">
+                        <a href="#"><i class="fa-solid fa-arrow-right"></i></a>
+                        </div>
+
                     </div>
                     
                     <div class="skillsCards">
-                        <img src="./images/skillcard2.jpg" height="100px" width="200px" alt="skill1">
+                        <div class="cp">
+                        <img src="./images/skillcard2.png" height="150px" width="200px" alt="skill1">
+                        </div>
+                        
+                        <div class="skillstext">
                         <h3>Front End Development</h3>
                         <p>84 Projects</p>
-                        <a href="#">show more <i class="fa-solid fa-arrow-right"></i></a>
+                        </div>
+
+                        <div class="skillsArrow">
+                        <a href="#"><i class="fa-solid fa-arrow-right"></i></a>
+                        </div>
+                        
                     </div>
                     
                     <div class="skillsCards">
-                        <img src="./images/skillcard3.png" height="100px" width="200px" alt="skill1">
+                        <div class="cp">
+                        <img src="./images/skillcard3.jpg" height="150px" width="200px" alt="skill1">
+                        </div>
+                        
+                        <div class="skillstext">
                         <h3>Mobile App Development</h3>
                         <p>32 Projects</p>
-                        <a href="#">show more <i class="fa-solid fa-arrow-right"></i></a>
+                        </div>
+                        
+                        <div class="skillsArrow">
+                            <a href="#"><i class="fa-solid fa-arrow-right"></i></a>
+                        </div>
+                        
                     </div>
 
                 </div>
@@ -159,32 +185,118 @@
                 <div class="skillsDetails">
 
                     <div class="detailsCards">
-                        <i class="fa-solid fa-cubes"></i>
+                        <i class="fa-solid fa-object-group"></i>
                         <h3>UI/UX Design</h3>
                         <p>Create a beautiful and useful UI display for ease of use of the application for users.</p>
-                        <p>show more <a href="#">show more <i class="fa-solid fa-arrow-right"></i></a></p>
+                        <a href="#">show more</a>
                     </div>
 
                     <div class="detailsCards">
-                        <i class="fa-solid fa-cubes"></i>
+                        <i class="fa-solid fa-laptop-code"></i>
                         <h3>Web Programming</h3>
                         <p>Build a quality website with the best technology and optimization on search engines.</p>
-                        <p>show more <a href="#">show more <i class="fa-solid fa-arrow-right"></i></a></p>
+                        <a href="#">show more</a>
                     </div>
 
                     <div class="detailsCards">
-                        <i class="fa-solid fa-cubes"></i>
+                        <i class="fa-solid fa-mobile-screen-button"></i>
                         <h3>Mobile App Development</h3>
                         <p>Create an App from your own business for a more professional business performance</p>
-                        <p>show more <a href="#">show more <i class="fa-solid fa-arrow-right"></i></a></p>
+                        <a href="#">show more</a>
+                    </div>
+                </div>
+    </div>
+        </section>
+        
+        <section class="testimonials" id="testimonials">
+            <div class="container">
+                
+                <div class="tmcards">
+                    
+                    <div class="tmcard">
+                        <div class="tmTitle">
+                            <h2>Mobile App Design</h2>
+                        </div>
+                            <div class="tmDescription">
+                            <h3>Travel Mobile App</h3>
+                            <a href="#"><i class="fa-solid fa-file-code"></i> Case Study</a>
+                        </div>
+                        <div class="tmpic">
+                            <img src="./images/travelmobileapp.jpg" height="100%" width="100%" alt="">
+                        </div>
                     </div>
 
-
+                    <div class="tmcard">
+                        <div class="tmTitle">
+                            <h2>Website Design</h2>
+                        </div>
+                            <div class="tmDescription">                            <h3>Real Estate Landing Page</h3>
+                            <a href="#"><i class="fa-solid fa-file-code"></i> Case Study</a>
+                        </div>
+                        <div class="tmpic">
+                            <img src="./images/realestatelandingpage.png" height="100%" width="100%" alt="">
+                        </div>
+                    </div>
+                    
+                    <div class="tmcard">
+                        <div class="tmTitle">
+                            <h2>Website Design</h2>
+                        </div>
+                            <div class="tmDescription">
+                            <h3>Coffee Shop Website</h3>
+                            <a href="#"><i class="fa-solid fa-file-code"></i> Case Study</a>
+                        </div>
+                        <div class="tmpic">
+                            <img src="./images/coffeeshopwebsite.jpg" height="100%" width="100%" alt="">
+                        </div>
+                    </div>
+                    
+                    <div class="tmcard">
+                        <div class="tmTitle">
+                            <h2>Mobile App Design</h2>
+                        </div>
+                            <div class="tmDescription">
+                            <h3>Sneakers Store App</h3>
+                            <a href="#"><i class="fa-solid fa-file-code"></i> Case Study</a>
+                        </div>
+                        <div class="tmpic">
+                            <img src="./images/sneakersstoreapp.png" height="100%" width="100%" alt="">
+                        </div>
+                    </div>
+                    
+                    <div class="tmcard">
+                        <div class="tmTitle">
+                            <h2>Mobile App Design</h2>
+                        </div>
+                            <div class="tmDescription">
+                            <h3>Hotel Booking App</h3>
+                            <a href="#"><i class="fa-solid fa-file-code"></i> Case Study</a>
+                        </div>
+                        <div class="tmpic">
+                            <img src="./images/hotelbookingapp.png" height="100%" width="100%" alt="">
+                        </div>
+                    </div>
+                    
+                    <div class="tmcard">
+                        <div class="tmTitle">
+                                <h2>Website Design</h2>
+                            </div>
+                                <div class="tmDescription">
+                            <h3>Co-working Space Website</h3>
+                            <a href="#"><i class="fa-solid fa-file-code"></i> Case Study</a>
+                        </div>
+                        <div class="tmpic">
+                            <img src="./images/coworkingspacewebsite.png" height="100%" width="100%" alt="">
+                        </div>
+                    </div>
+                    
                 </div>
-            
 
+                <div class="button"><p>More Portfolio</p></div>
+
+
+            </div>
         </section>
-    </div>
 
     
 </body>
