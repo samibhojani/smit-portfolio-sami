@@ -402,8 +402,14 @@ nav ul li a:hover {
     height: 50px;
     cursor: pointer;    
 }
+
+.button a {
+    text-decoration: none;
+    color: #f9b81e;
+}
+.button a:hover {
+    color: #fff;
+}
 .button:hover {
     border: 1px solid #fff;
-    color: #fff;
-    background-color: #f9b81e;
 }
