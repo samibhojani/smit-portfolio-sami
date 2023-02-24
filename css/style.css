@@ -220,24 +220,25 @@ nav ul li a:hover {
     object-fit: contain;
 }
 
-.informatics {
+.pf-intro {
     display: flex;
     justify-content: space-between;
-    height: 500px;
-}
-.info1 {
-    width: 50%;
 }
 
-.info1 h1 {
+.informatics {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    width: 40%;
+}
+
+.informatics h1 {
     font-size: 50px;
-    width: 500px;
     margin-top: 50px;
 }
 
 #infoP {
     width: 300px;
-    padding: 40px 0;
 }
 
 .stats {
@@ -245,8 +246,6 @@ nav ul li a:hover {
     justify-content: space-around;
     height: 120px;
     width: 220px;
-    align-items: center;
-    
     flex-wrap: wrap;
 }
 
@@ -264,13 +263,15 @@ nav ul li a:hover {
 .skills {
     width: 50%;
     display: flex;
-    align-items: flex-start;
+    justify-content: space-between;
     flex-direction: column;
 }
 
 .skillsCards {
     display: flex;
-    width: 90%;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
     border: 1px;
     padding: 10px 0;
     border-bottom: 1px solid #424047;
@@ -284,24 +285,18 @@ nav ul li a:hover {
     color: #fff;
 }
 
+.cp {
+    width: 30%;
+}
+
 .skillstext {
-    flex-direction: column;
-    align-self: center;
-    padding: 20px;
+    width: 60%;
 }
-
-#skillsArrow1 {
-    margin-left: 285px;
-    margin-top: 50px;
-    text-align: center;
-}
-
 
 .skillsArrow {
-    margin-left: 200px;
-    margin-top: 50px;
-    text-align: center;
+    width: 10%;
 }
+
 
 .skillsDetails {
     margin-top: 70px;
