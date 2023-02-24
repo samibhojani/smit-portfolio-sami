@@ -72,55 +72,49 @@ nav ul li a:hover {
     color: #fff;
 }
 
-.home{
-    color: #b3b3b3;
-    height: 620px;
-}
-.homeWrap{
+.main {
     width: 100%;
-    height: 100%;
+    height: 650px;
+    color: #fff;
     display: flex;
     justify-content: space-between;
 }
-.title{
-    width: 480px;
-    margin-top: 8%;
+
+.mainText {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
     overflow: visible;
-    
-}
-.title h1{
-    font-size: 70px;
-    font-weight: lighter;
-    letter-spacing: 10px;
 }
 
-#fullname{
-    width: 40%;
-    font-size: 100px;
-    font-weight: bold;
-    letter-spacing: normal;
-    color: #fff;
-    position: relative;
+.mainTitle {
+    font-size: 50px;
     z-index: 9;
     white-space: nowrap;
 }
 
-.gold-line{
-    width: 25%;
+#introText {
+    color: #b3b3b3;
+}
+
+.goldLine{
+    width: 150px;
     border-bottom: 5px solid #f9b81e;
     margin-left: 7px;
     margin-top: 10px;
 }
 
-.intro  {
-    width: 215px;
-    font-weight: 100;
-    font-size: 15px;
+.mainPara {
     color: #b3b3b3;
-    margin-top: 10%;
-    position: relative;
+    width: 327px;
+    font-size: 20px;
 }
-
+.mainPhoto {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+}
 .circle{
     height: 500px;
     width: 600px;
@@ -128,7 +122,7 @@ nav ul li a:hover {
     border-radius: 50%;
 }
 
-.circle img {
+.mainPic img {
     position: relative;
     z-index: 99;
     margin: 0 auto;
@@ -136,24 +130,19 @@ nav ul li a:hover {
 }
 
 .services {
-    width: 40%;
-    position: relative;
-    left: -63px;
-    margin-top: 10%;
-    color: #fff;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
-.services h3 {
+.servicesTitle h3 {
     font-weight: lighter;
     font-size: 20px;
-    padding-bottom: 10px;
-    padding-left: 20px;
 }
 
-.services p {
-    font-size: 25px;
-    padding-bottom: 25px;
-    padding-left: 20px;
+.servicesPara P {
+    font-size: 19px;
 }
 
 .services a {
@@ -167,13 +156,18 @@ nav ul li a:hover {
     color: #fff;
 }
 
-.services i {
+.servicesLinks {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.social-icons i {
+    margin-top: 10px;
     color: #b3b3b3;
-    flex-direction: row;
     font-size: 25px;
     color: #f9b81e;
-    flex-direction: row;
-    padding: 15px;
 }
 
 .services i:hover {
